@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'articles/index'
+  get 'andrew_sound_manager/index'
   resources :articles
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'articles#index'
+  root 'andrew_sound_manager#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
