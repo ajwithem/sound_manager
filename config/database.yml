@@ -1,15 +1,23 @@
 development:
-adapter: postgresql
-encoding: unicode
-database: andrew_sound_manager_development
-pool: 5
-username: ajwithem
-password:
+  adapter: postgresql
+  encoding: unicode
+  database: asm_development
+  pool: 5
+  username: ajwithem
+  password:
 
 test:
-adapter: postgresql
-encoding: unicode
-database: andrew_sound_manager_test
-pool: 5
-username: ajwithem
-password:
+  adapter: postgresql
+  encoding: unicode
+  database: asm_test
+  pool: 5
+  username: ajwithem
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: asm_production
+  pool: 5
+  username: ajwithem
+  password:
