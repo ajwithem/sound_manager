@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
   end
 
   def show
-    @articles = Article.find(params[:id])
+    @articles = Article.find(params[:id]) ## @articles and NOT @article
   end
   def index
     @articles = Article.all ## @articles and NOT @article
