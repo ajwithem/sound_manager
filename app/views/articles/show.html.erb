@@ -1,0 +1,27 @@
+<p>
+  <strong>Title:</strong>
+  <%= @articles.title %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @articles.artist %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @articles.format %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @articles.length %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @articles.size %>
+</p>
+
+<%= link_to 'Back', articles_path %>
+<%= link_to 'Edit', edit_article_path(@articles) %>
