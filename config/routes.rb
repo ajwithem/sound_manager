@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :titles
+
   get 'andrew_sound_manager/index'
   resources :articles
   # The priority is based upon order of creation: first created -> highest priority.

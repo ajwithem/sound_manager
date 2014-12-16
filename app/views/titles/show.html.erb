@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @title.artist %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @title.format %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @title.length %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @title.size %>
+</p>
+
+<%= link_to 'Edit', edit_title_path(@title) %> |
+<%= link_to 'Back', titles_path %>
