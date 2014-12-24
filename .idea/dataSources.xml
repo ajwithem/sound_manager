@@ -5,21 +5,18 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:asm_development</jdbc-url>
-      <user-name>ajwithem</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails andrew-sound-manager: test" uuid="988daacd-5aa0-44c7-abca-42fa52907c40">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:asm_test</jdbc-url>
-      <user-name>ajwithem</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails andrew-sound-manager: production" uuid="e477292c-7c76-4ba3-9e10-531a3ff3ff1f">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:asm_production</jdbc-url>
-      <user-name>ajwithem</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="PostgreSQL -" uuid="759e6196-18f2-42e1-a8d7-7caadcc7a6e3">
@@ -31,4 +28,3 @@
     </data-source>
   </component>
 </project>
-
